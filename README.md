@@ -1,6 +1,6 @@
 # SegCIA
 Segmentation for Cancer Invasion Analysis of nerve and vessel
-## Extracting and analyzing 3D histomorphometric. bfeatures related to perineural and lymphovascular invasion in prostate cancer
+## Extracting and analyzing 3D histomorphometric features related to perineural and lymphovascular invasion in prostate cancer
 
 ### 1. Nerve Segmentation (Ground Truth Creation)
 - Generate binary nerve masks from IHC channel images using classical computer vision methods.
@@ -38,3 +38,8 @@ Typical dependencies include:
 - opencv-python
 - matplotlib
 - tqdm
+
+##
+⚠️ Note: 
+This repository is not a fully packaged end-to-end software tool, but to provides an example of the general pipeline for 3D cancer invasion analysis, including segmentation, chunking, blending, and feature extraction.
+Some dataset-specific preprocessing steps, parameter tuning, and discussions are not included here.
